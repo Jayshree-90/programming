@@ -9,7 +9,7 @@ public class FirstCharacter_Uppercase {
 		
 		for(int i=0;i<s.length();i++) {
 			char ch =s.charAt(i);
-			if(i==0 && ch>='a' && ch<='z') {
+			if( ch>='a' && ch<='z') {
 				int n=ch-32;
 				System.out.print((char)n);
 			}
