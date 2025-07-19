@@ -14,7 +14,11 @@ public class StringReverse {
 		}
 		
 		System.out.println(rev);
-
+		
+		
+		StringBuffer sb = new StringBuffer(s);
+		sb.reverse();
+		System.out.println(sb);
 	}
 
 }
