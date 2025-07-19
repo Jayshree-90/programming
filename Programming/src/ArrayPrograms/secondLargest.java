@@ -18,9 +18,7 @@ public class secondLargest {
             }
         }
 
-        if (secondLargest == Integer.MIN_VALUE) {
-            System.out.println("There is no second largest element.");
-        } else {
+        if (secondLargest != Integer.MIN_VALUE) {
             System.out.println("Second Largest Number: " + secondLargest);
         }
     }
